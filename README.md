@@ -49,7 +49,7 @@ The processing pipeline is designed to transition toward next-generation **NMS-F
 - **CV Technique:** Real-time Object Detection and Class-Agnostic Geometric Prompting.
 - **Model Architecture:** CNN + Vision Transformer (ViT) Hybrid Core.
 - **Model:** Ultralytics YOLOv11 (Label Specialist) paired with Meta SAM 2 (Zero-Shot Boundary Verification).
-- **Framework:** PyTorch, Ultralytics SDK, and local ROS2 node structures integrated with [OmniID V2X Framework](https://github.com) stacks.
+- **Framework:** PyTorch, Ultralytics SDK, and local ROS2 node structures integrated with [OmniID V2X Framework](https://github.com/binxixi23/omniid-v2x-infrastructure) stacks.
 - **Why this approach:** YOLOv11 delivers high-inference frame rates directly within constrained local RAM to enforce data minimization, while SAM 2 provides perfect boundary maps for oddly-shaped liquid puddles without relying on heavy cloud APIs.
 
 ### Slide 5 – Data Plan
